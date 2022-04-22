@@ -33,5 +33,4 @@ function handleLogin() {
         document.getElementById("login_button").disabled = true;
         window.alert("You entered false credentials too many times, please reload the page");
     }
-
 }
