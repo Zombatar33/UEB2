@@ -4,6 +4,7 @@ function handleLogin() {
     var username = document.getElementById("login_username").value;
     var password = document.getElementById("login_password").value;
 
+    /*
     if (username == "") {
         window.alert("Username can't be empty");
         return;
@@ -13,6 +14,7 @@ function handleLogin() {
         window.alert("Password can't be empty");
         return;
     }
+    */
 
     if (remainingAttempts > 1) {
         // The .html pages are not protected via. authentication and can be accessed directly through the URl for now
