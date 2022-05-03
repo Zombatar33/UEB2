@@ -1,0 +1,80 @@
+body {
+    background-color: #121212;
+}
+
+.managebuttons {
+    position:absolute;
+    top:0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.form {
+    width: 400px;
+    color: #ffffffee;
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+
+    position:absolute;
+    margin-top: 25px;
+    margin-right: 10px;
+    top: 0;
+    right: 0;
+}
+
+input, select {
+    float: right;
+    font-family: 'Montserrat', serif;
+}
+
+button.b1 {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border: none;
+    background-image: linear-gradient(-90deg, #bb86fc, #57c0e0);
+    background-size: 110%;
+    color: #ffffffee;
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+}
+
+.crudbuttons {
+    position:absolute;
+    top:0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+button.b2 {
+    width: 125px;
+    padding: 7px 15px;
+    margin-left: 6px;
+    border: none;
+    background-color: #bb86fc;
+    color: #ffffffee;
+    font-family: 'Montserrat', serif;
+    font-size: 13px;
+}
+
+.studentstable {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+table, th, td {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffffee;
+    border: 1px solid #ffffffee;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+table {
+    position: relative;
+    top: 240px;
+    width: 100%;
+}

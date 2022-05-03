@@ -24,14 +24,6 @@ function generateButtons() {
         }
     });
 }
-/*
-            <tr>
-                <th style="width:150px">Student ID</th>
-                <th style="width:80%">Student Name</th>
-            </tr>
-            <tr><td>577868</td><td>Student 1</td></tr>
-            <tr><td>577868</td><td>Student 2</td></tr>
-*/
 
 function displayCorrectStudents(button) {
     console.log("Clicked: " + button)
