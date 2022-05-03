@@ -1,0 +1,14 @@
+{
+    "courses":
+    [
+        "Mathematics",
+        "Programming",
+        "Computer Networks",
+        "Operating Systems",
+        "Software Engineering",
+        "Databases",
+        "Webdevelopement",
+        "Computer Graphics",
+        "Distributed Systems"
+    ]
+}

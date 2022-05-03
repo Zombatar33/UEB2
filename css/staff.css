@@ -1,0 +1,42 @@
+body {
+    background-color: #121212;
+}
+
+.coursebtngroup {
+    background-color: #ffffff07;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border: none;
+    background-image: linear-gradient(-90deg, #bb86fc, #57c0e0);
+    background-size: 110%;
+    color: #ffffffee;
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+}
+
+.studentstable {
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 300px;
+    transform: translateY(-50%);
+
+}
+
+table, th, td {
+    color: #ffffffee;
+    border: 1px solid #ffffffee;
+    border-collapse: collapse;
+}
+

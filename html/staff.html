@@ -1,3 +1,5 @@
+<!-- HTW Berlin -->
+<!-- Name: Adam Ebied, Student-ID: 577868 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,11 +7,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Staff Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="/css/staff.css">
+    <script data-main="scripts/main" src="/js/staff.js"></script>
+    <style>
+        body {
+            font-family: 'Montserrat', serif;
+            font-size: 18px;
+        }
+    </style>
+
+    <title>Staff - Course Selection</title>
 </head>
 
 <body>
-
+    <div class="coursebtngroup" id="coursebtngroup">
+        <script>
+            generateButtons();
+        </script>
+    </div>
+    <div class="studentstable" id="studentstable">
+        <table id="targettable">
+            <tr>
+                <th style="width:150px">Student ID</th>
+                <th style="width:80%">Student Name</th>
+            </tr>
+            <tr><td>577868</td><td>Student 1</td></tr>
+            <tr><td>577868</td><td>Student 2</td></tr>
+            <tr><td>577868</td><td>Student 3</td></tr>
+            <tr><td>577868</td><td>Student 4</td></tr>
+            <tr><td>577868</td><td>Student 5</td></tr>
+        </table>
+    </div>
 </body>
 
 </html>

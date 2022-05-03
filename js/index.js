@@ -15,7 +15,7 @@ function handleLogin() {
     }
 
     if (remainingAttempts > 1) {
-        // The .html pages are not protected via. authentication
+        // The .html pages are not protected via. authentication and can be accessed directly through the URl for now
         if (username == "Admin" && password == "Admin") {
             // Admin page
             location.href = "html/admin.html";
@@ -26,11 +26,13 @@ function handleLogin() {
         }
         else {
             remainingAttempts--;
-            window.alert("Invalid credentials, " + remainingAttempts + " attempt(s) remaining")
+            window.alert("Login Credentials Incorrect, " + remainingAttempts + " attempt(s) remaining")
         }
     } else {
         // Disable Form
         document.getElementById("login_button").disabled = true;
-        window.alert("You entered false credentials too many times, please reload the page");
+        username.disabled = true;
+        password.disabled = true;
+        window.alert("You entered false credentials too many times");
     }
 }
