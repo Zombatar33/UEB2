@@ -31,8 +31,8 @@ function handleLogin() {
     } else {
         // Disable Form
         document.getElementById("login_button").disabled = true;
-        username.disabled = true;
-        password.disabled = true;
+        document.getElementById("login_username").disabled = true;
+        document.getElementById("login_password").disabled = true;
         window.alert("You entered false credentials too many times");
     }
 }
