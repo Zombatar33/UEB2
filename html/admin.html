@@ -25,25 +25,38 @@
         <h1>Information</h1>
 
         <label for="ID">ID</label>
-        <input type="number" placeholder="Enter ID" name="ID">
+        <input type="number" placeholder="Enter ID" name="ID" id="id">
         <br>
         <label for="fname">First Name</label>
-        <input type="text" placeholder="Enter First Name" name="fname">
+        <input type="text" placeholder="Enter First Name" name="fname" id="fname">
         <br>
         <label for="lname">Last Name</label>
-        <input type="text" placeholder="Enter Last Name" name="lname">
+        <input type="text" placeholder="Enter Last Name" name="lname" id="lname">
+        <br>
+        <label for="bday">Birthday</label>
+        <input type="date" placeholder="Enter Birthday" name="bday" id="bday">
+        <br>
+        <label for="gender">Gender</label>
+        <select placeholder="Enter Gender" name="gender" id="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Diverse</option>
+        </select>
         <br>
         <label for="department">Department</label>
-        <select placeholder="Enter Department" name="department">
-            <option>Department 1</option>
-            <option>Department 2</option>
-            <option>Department 3</option>
-            <option>Department 4</option>
+        <select placeholder="Enter Department" name="department" id="department">
+            <option>Applied Computer Science</option>
+            <option>Mathematics</option>
         </select>
         <br>
         <label for="email">E-Mail</label>
-        <input type="email" placeholder="Enter E-Mail" name="email">
+        <input type="email" placeholder="Enter E-Mail" name="email" id="email">
+        <br>
+        <label for="joindate">Birthday</label>
+        <input type="date" placeholder="Enter Join Date" name="bday" id="joindate">
+        <br>
     </div>
+    
     <div class="managebuttons" id="managebuttons">
         <button class="b1" id="student_button" onclick="manageStudents();">Manage Students</button>
         <button class="b1" id="staff_button" onclick="manageStaff();">Manage Staff</button>
@@ -59,18 +72,15 @@
                 <th>Student ID</th>
                 <th>First Name</th>
                 <th>Last Name</th>
+                <th>Birthday</th>
+                <th>Gender</th>
                 <th>Department</th>
                 <th>E-Mail</th>
-            </tr>
-            <tr>
-                <td>577868</td>
-                <td>Adam</td>
-                <td>Ebied</td>
-                <td>Applied Computer Science</td>
-                <td>s0577868@htw-berlin.de</td>
+                <th>Join Date</th>
             </tr>
         </table>
     </div>
+    
 </body>
 
 </html>
