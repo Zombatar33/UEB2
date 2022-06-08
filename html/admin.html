@@ -52,7 +52,7 @@
         <label for="email">E-Mail</label>
         <input type="email" placeholder="Enter E-Mail" name="email" id="email">
         <br>
-        <label for="joindate">Birthday</label>
+        <label for="joindate">Join Date</label>
         <input type="date" placeholder="Enter Join Date" name="bday" id="joindate">
         <br>
     </div>
@@ -62,12 +62,14 @@
         <button class="b1" id="staff_button" onclick="manageStaff();">Manage Staff</button>
     </div>
     <div class="filteroptions">
+        <label for="filterdepartment">Department</label>
         <select name="filterdepartment" id="filterdepartment" onchange="if (student_mode) manageStudents(); else manageStaff();">
             <option></option>
             <option>Applied Computer Science</option>
             <option>Mathematics</option>
         </select>
         <br>
+        <label for="filtersemester">Semester</label>
         <select name="filtersemester" id="filtersemester" onchange="if (student_mode) manageStudents(); else manageStaff();">
             <option></option>
             <option>Summer Semester</option>

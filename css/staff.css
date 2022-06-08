@@ -4,16 +4,16 @@ body {
 
 .coursebtngroup {
     margin: 0px 15px;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    position: relative;
 }
 
 select {
     font-family: 'Montserrat', serif;
     font-size: 18px;
+}
+
+label {
+    color: #ffffffee;
 }
 
 button {
@@ -29,11 +29,9 @@ button {
 }
 
 .studentstable {
-    width: max-content;
-    position: absolute;
-    top: 50%;
-    left: 300px;
-    transform: translateY(-50%);
+    position: relative;
+    top: 20px;
+    width: 100%;
 
 }
 
