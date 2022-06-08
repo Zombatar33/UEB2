@@ -22,21 +22,30 @@
 
 <body>
     <div class="coursebtngroup" id="coursebtngroup">
-        <script>
-            generateButtons();
-        </script>
+        <select placeholder="Select Department" name="department" id="department" onchange="displayCorrectStudents()">
+            <option></option>
+            <option>Applied Computer Science</option>
+            <option>Mathematics</option>
+        </select>
+        <br>
+        <select name="semester" id="semester" onchange="displayCorrectStudents()">
+            <option></option>
+            <option>Summer Semester</option>
+            <option>Winter Semester</option>
+        </select>
     </div>
     <div class="studentstable" id="studentstable">
         <table id="targettable">
             <tr>
-                <th style="width:150px">Student ID</th>
-                <th style="width:80%">Student Name</th>
+                <th>Student ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Birthday</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>E-Mail</th>
+                <th>Join Date</th>
             </tr>
-            <tr><td>577868</td><td>Student 1</td></tr>
-            <tr><td>577868</td><td>Student 2</td></tr>
-            <tr><td>577868</td><td>Student 3</td></tr>
-            <tr><td>577868</td><td>Student 4</td></tr>
-            <tr><td>577868</td><td>Student 5</td></tr>
         </table>
     </div>
 </body>

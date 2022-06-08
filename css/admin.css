@@ -10,6 +10,14 @@ body {
     margin-left: 10px;
 }
 
+.filteroptions {
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
 .form {
     width: 400px;
     color: #ffffffee;

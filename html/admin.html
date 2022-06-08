@@ -61,6 +61,19 @@
         <button class="b1" id="student_button" onclick="manageStudents();">Manage Students</button>
         <button class="b1" id="staff_button" onclick="manageStaff();">Manage Staff</button>
     </div>
+    <div class="filteroptions">
+        <select name="filterdepartment" id="filterdepartment" onchange="if (student_mode) manageStudents(); else manageStaff();">
+            <option></option>
+            <option>Applied Computer Science</option>
+            <option>Mathematics</option>
+        </select>
+        <br>
+        <select name="filtersemester" id="filtersemester" onchange="if (student_mode) manageStudents(); else manageStaff();">
+            <option></option>
+            <option>Summer Semester</option>
+            <option>Winter Semester</option>
+        </select>
+    </div>
     <div class="crudbuttons" id="crudbuttons">
         <button class="b2" id="add_button" onclick="handleAdd();">Add</button>
         <button class="b2" id="update_button" onclick="handleUpdate();">Update</button>
